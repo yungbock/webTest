@@ -1,0 +1,110 @@
+
+/* 바탕 */
+body{
+    background-color: #a9a9a9;
+    margin: 0 auto;
+}
+
+/* 공통 */
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+/* header */
+header{
+    background-color: white;
+    width: 1000px;
+    font-weight: bold;
+    align-items: center;
+    top: 0px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    position: fixed;
+}
+
+
+/* header  ul*/
+header nav{
+    height: 100px;
+    width: 100%;
+    padding: 0px 0px;
+    margin: 0px auto;
+}
+
+header nav ul{
+    display: flex;
+    height: 100px;
+    padding: 0px 0px;
+    margin: 0px auto;
+    align-items: center;
+}        
+
+header nav ul li{
+    margin: auto;
+}
+
+#head{
+    display: block;
+    align-items: center;
+}
+
+#head-color{
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+/* 이미지 사이즈  */
+#logo-img{ /* 설정중 */
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+}
+
+/* main 파트 */
+main{
+    margin: 100px  auto;
+    height: 1000px;
+    width: 1000px;
+
+    align-items: center;
+    background-color: aqua;
+}
+
+/* main 이미지 */
+main section nav ul{
+    display: flex;
+    padding: 0;
+    margin: 0px;
+    width: 100%;
+}
+
+main section nav ul li{
+    background-color: yellowgreen;
+    padding: 20px;
+}
+
+main a img{
+    object-fit: fill;
+    width: 100%;
+}
+
+main section nav ul li a{
+    display: block;
+}
+
+main section nav ul li a img{
+    object-fit: cover;
+    width: 50px;
+    background-color: #dcdcdc;
+    border-radius: 20px;
+}
+.no{
+    font-size: 9px;
+    text-align: center;
+    font-weight: bolder;
+}
